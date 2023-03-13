@@ -1,0 +1,44 @@
+.glass {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+  }
+
+  .box__dragndrop,
+  .box__uploading,
+  .box__success,
+  .box__error {
+    display: none;
+  }
+  .dropzone .dz-preview{
+    display: none!important
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    margin-top: 1rem;
+  }
+
+  .droparea {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 160px;
+
+  }
+  #sucesso {
+    right: 16px;
+    position: absolute;
+    width: 23%;
+    top: 2%;
+  }
+
